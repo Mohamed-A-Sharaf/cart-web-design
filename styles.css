@@ -10,6 +10,14 @@ html {
     margin: 50px auto;
     box-shadow: 3px 3px 10px rgb(201, 200, 200);
   }
+
+  .card-container:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
   
   h1 {
     color: rgb(58, 58, 58);
