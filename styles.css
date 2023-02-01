@@ -9,7 +9,12 @@ html {
     width: 350px;
     margin: 50px auto;
     box-shadow: 3px 3px 10px rgb(201, 200, 200);
-  }
+    transform: transform 2s ease-out;
+    -webkit-transform: transform 2s ease-out;
+    -moz-transform: transform 2s ease-out;
+    -ms-transform: transform 2s ease-out;
+    -o-transform: transform 2s ease-out;
+}
 
   .card-container:hover {
     transform: scale(1.05);
